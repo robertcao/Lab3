@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -125,7 +125,7 @@
                                     <constraint firstAttribute="height" constant="60" id="86q-Hh-IqJ"/>
                                     <constraint firstAttribute="width" constant="350" id="JP8-tY-0d9"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
@@ -251,6 +251,7 @@
                     <connections>
                         <outlet property="buildingImageView" destination="LRE-Vu-kkq" id="8bx-zX-2X7"/>
                         <outlet property="buildingSearchBar" destination="q2G-cC-1Lr" id="Zsh-Of-jdn"/>
+                        <outlet property="distanceLabel" destination="vRl-4l-jqH" id="6Hb-PR-YSg"/>
                         <outlet property="introLabel" destination="gd0-I5-iGd" id="uuL-jq-tHl"/>
                         <outlet property="scrollView" destination="0KC-vo-gvd" id="pMn-Or-vP1"/>
                     </connections>
